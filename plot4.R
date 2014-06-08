@@ -16,7 +16,7 @@ cons$Sub_metering_3 <- as.numeric(cons$Sub_metering_3)
 par(mfrow=c(2,2))
 
 
-plot(cons$Time, cons$Global_active_power, type='n', xlab='', ylab='Global Active Power (kilowatts)')
+plot(cons$Time, cons$Global_active_power, type='n', xlab='', ylab='Global Active Power')
 lines(cons$Time, cons$Global_active_power)
 
 plot(cons$Time, cons$Voltage, type='n', xlab='datetime', ylab='Voltage')
